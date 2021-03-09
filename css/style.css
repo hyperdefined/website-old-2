@@ -3,7 +3,7 @@
 body {
     margin: 2em;
     color: #FFF;
-    font: normal 18px/1.4 Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font: normal 18px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background: #000000;
     z-index: 1;
 }
