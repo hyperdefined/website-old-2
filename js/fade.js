@@ -10,8 +10,7 @@ function fadeIn(el) {
     tick();
 }
 
-function myFunction() {
+function fadeDatShit() {
     var el = document.getElementById("content");
-    console.log(el);
     fadeIn(el);
 }
