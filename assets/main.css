@@ -805,10 +805,6 @@ th {
 	text-decoration: underline;
 }
 
-#table01 .table-inner {
-	width: 16rem;
-}
-
 #table01 thead {
 	border-bottom: solid 2px #686872;
 }
