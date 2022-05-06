@@ -1,2 +1,4 @@
 # hyper's Website
-Simple website to put stuff.
+hyperdefined's simple website. This website will constantly be changing.
+
+This site was built on [Carrd](https://carrd.co/), but exported for more customization.
