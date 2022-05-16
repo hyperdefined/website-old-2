@@ -1,4 +1,4 @@
-baseURL = 'https://hyper.lol'
+baseURL = 'https://hyper.lol/'
 languageCode = 'en-us'
 title = 'hyperdefined'
 theme = 'hyperwolf'
