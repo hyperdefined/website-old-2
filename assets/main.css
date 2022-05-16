@@ -73,9 +73,13 @@ sup {
 }
 
 a {
-	color: inherit;
-	text-decoration: underline;
+	color: #4EA5D9;
 	transition: color 0.25s ease;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .caption {
@@ -371,50 +375,34 @@ h1 .li, h2 .li, h3 .li, p .li {
 	font-weight: 400;
 }
 
-#text01 a {
-	text-decoration: underline;
-}
-
-#text01 a:hover {
-	text-decoration: none;
-}
-
-#text04 br + br {
+#header br + br {
 	margin-top: 0.525rem;
 }
 
-#text04 {
+#header {
 	text-align: center;
-	color: #ADADAD;
+	color: white;
 	font-family: 'Maven Pro', sans-serif;
 	font-size: 1.875em;
 	line-height: 0.875;
 	font-weight: 400;
 }
 
-#text04 a {
-	text-decoration: underline;
-}
-
-#text04 a:hover {
-	text-decoration: none;
-}
-
-#text03 br + br {
+#subtext br + br {
 	margin-top: 0.825rem;
 }
 
-#text03:not(:first-child) {
+#subtext:not(:first-child) {
 	margin-top: 1.375rem !important;
 }
 
-#text03:not(:last-child) {
+#subtext:not(:last-child) {
 	margin-bottom: 1.375rem !important;
 }
 
-#text03 {
+#subtext {
 	text-align: center;
-	color: #686872;
+	color: #C8C8C8;
 	font-family: 'Maven Pro', sans-serif;
 	letter-spacing: -0.025rem;
 	width: 100%;
@@ -423,41 +411,23 @@ h1 .li, h2 .li, h3 .li, p .li {
 	font-weight: 400;
 }
 
-#text03 a {
-	color: #ABABAB;
-	text-decoration: none;
-}
-
-#text03 a:hover {
-	text-decoration: underline;
-}
-
-#text02 br + br {
+#subtext br + br {
 	margin-top: 0.825rem;
 }
 
-#text02:not(:first-child) {
+#subtext:not(:first-child) {
 	margin-top: 1.375rem !important;
 }
 
-#text02 {
+#text05 {
 	text-align: center;
-	color: #686872;
+	color: white;
 	font-family: 'Maven Pro', sans-serif;
 	letter-spacing: -0.025rem;
 	width: 100%;
 	font-size: 1.125em;
 	line-height: 1.375;
 	font-weight: 400;
-}
-
-#text02 a {
-	color: #ABABAB;
-	text-decoration: none;
-}
-
-#text02 a:hover {
-	text-decoration: underline;
 }
 
 #text05 br + br {
@@ -483,28 +453,19 @@ h1 .li, h2 .li, h3 .li, p .li {
 	font-weight: 400;
 }
 
-#text05 a {
-	color: #ABABAB;
-	text-decoration: none;
-}
-
-#text05 a:hover {
-	text-decoration: underline;
-}
-
-#text06 br + br {
+#emoji br + br {
 	margin-top: 0.825rem;
 }
 
-#text06:not(:first-child) {
+#emoji:not(:first-child) {
 	margin-top: 1.375rem !important;
 }
 
-#text06:not(:last-child) {
+#emoji:not(:last-child) {
 	margin-bottom: 1.375rem !important;
 }
 
-#text06 {
+#emoji {
 	text-align: center;
 	color: #686872;
 	font-family: 'Maven Pro', sans-serif;
@@ -515,12 +476,7 @@ h1 .li, h2 .li, h3 .li, p .li {
 	font-weight: 400;
 }
 
-#text06 a {
-	color: #ABABAB;
-	text-decoration: none;
-}
-
-#text06 a:hover {
+#emoji:hover {
 	text-decoration: none;
 }
 
@@ -786,7 +742,7 @@ h1 .li, h2 .li, h3 .li, p .li {
 table {
 	direction: var(--site-language-direction);
 	text-align: var(--site-language-alignment);
-	width: 115%;
+	width: 110%;
 }
 
 th {
@@ -801,15 +757,6 @@ th {
 	font-size: 1.125em;
 	line-height: 1.375;
 	font-weight: 400;
-}
-
-#table01 a {
-	color: #ABABAB;
-	text-decoration: none;
-}
-
-#table01 a:hover {
-	text-decoration: underline;
 }
 
 #table01 thead {
@@ -1137,26 +1084,26 @@ th {
 		line-height: 0.875;
 	}
 	
-	#text03:not(:first-child) {
+	#subtext:not(:first-child) {
 		margin-top: 1.03125rem !important;
 	}
 	
-	#text03:not(:last-child) {
+	#subtext:not(:last-child) {
 		margin-bottom: 1.03125rem !important;
 	}
 	
-	#text03 {
+	#subtext {
 		letter-spacing: -0.021875rem;
 		width: 100%;
 		font-size: 1.125em;
 		line-height: 1.375;
 	}
 	
-	#text02:not(:first-child) {
+	#subtext:not(:first-child) {
 		margin-top: 1.03125rem !important;
 	}
 	
-	#text02 {
+	#subtext {
 		letter-spacing: -0.021875rem;
 		width: 100%;
 		font-size: 1.125em;
@@ -1178,15 +1125,15 @@ th {
 		line-height: 1.375;
 	}
 	
-	#text06:not(:first-child) {
+	#emoji:not(:first-child) {
 		margin-top: 1.03125rem !important;
 	}
 	
-	#text06:not(:last-child) {
+	#emoji:not(:last-child) {
 		margin-bottom: 1.03125rem !important;
 	}
 	
-	#text06 {
+	#emoji {
 		letter-spacing: -0.021875rem;
 		width: 100%;
 		font-size: 1.125em;
@@ -1364,11 +1311,11 @@ th {
 		font-size: 1.5em;
 	}
 	
-	#text03 {
+	#subtext {
 		font-size: 1.125em;
 	}
 	
-	#text02 {
+	#subtext {
 		font-size: 1.125em;
 	}
 	
@@ -1376,7 +1323,7 @@ th {
 		font-size: 1.125em;
 	}
 	
-	#text06 {
+	#emoji {
 		font-size: 1.125em;
 	}
 	
