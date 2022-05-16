@@ -1,0 +1,10 @@
+baseURL = 'localhost'
+languageCode = 'en-us'
+title = 'hyperdefined'
+theme = 'hyperwolf'
+[permalinks]
+  posts = '/posts/:title/'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  

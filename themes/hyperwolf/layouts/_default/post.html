@@ -1,0 +1,8 @@
+{{ define "main" }}
+<div id="image01" class="image" data-position="center">
+    <span class="frame"><img src="{{.Site.BaseURL}}images/image01.jpg" alt="" /></span>
+</div>
+<h2 id="header">{{ .Title }}</h2>
+<p id="time">{{ dateFormat "01-02-2006" .Date }} - {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}</p>
+ {{ .Content }}
+{{ end }}

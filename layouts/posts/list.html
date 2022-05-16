@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div id="image01" class="image" data-position="center">
+    <span class="frame"><img src="{{.Site.BaseURL}}images/image01.jpg" alt="" /></span>
+</div>
+<h2 id="header">{{ .Title }}</h2>
+<div class="table-inner posts">
+<table id="table01" class="table-wrapper">
+    <tbody>
+        {{ range .Pages.ByPublishDate.Reverse }}
+        <tr>
+            <td class="left"><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+            <td class="right"><time class="published-at mobile-hidden">{{ dateFormat "01-02-2006" .Date }}</time></td>
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
+</div>
+{{ end }}

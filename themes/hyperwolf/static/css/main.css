@@ -29,6 +29,23 @@ html {
 	font-size: 18pt;
 }
 
+#posts {
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+#posts li {
+	text-align: left;
+}
+
+.limit-width {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+}
+
 u {
 	text-decoration: underline;
 }
@@ -89,7 +106,7 @@ a:hover {
 	font-family: 'Maven Pro', sans-serif;
 }
 
-#wrapper {
+#wrapper, #post-wrapper {
 	-webkit-overflow-scrolling: touch;
 	align-items: center;
 	display: flex;
@@ -99,6 +116,10 @@ a:hover {
 	overflow: hidden;
 	position: relative;
 	z-index: 2;
+}
+
+#post-wrapper {
+	justify-content: start;
 }
 
 #main {
@@ -362,11 +383,11 @@ h1 .li, h2 .li, h3 .li, p .li {
 	padding-left: 0.5em;
 }
 
-#text01 br + br {
+#header br + br {
 	margin-top: 0.525rem;
 }
 
-#text01 {
+#header {
 	text-align: center;
 	color: #ADADAD;
 	font-family: 'Maven Pro', sans-serif;
@@ -416,6 +437,98 @@ h1 .li, h2 .li, h3 .li, p .li {
 }
 
 #subtext:not(:first-child) {
+	margin-top: 1.375rem !important;
+}
+
+#time br + br {
+	margin-top: 0.825rem;
+}
+
+#time:not(:first-child) {
+	margin-top: 1.375rem !important;
+}
+
+#time:not(:last-child) {
+	margin-bottom: 1.375rem !important;
+}
+
+#time {
+	text-align: center;
+	color: #C8C8C8;
+	font-family: 'Maven Pro', sans-serif;
+	letter-spacing: -0.025rem;
+	width: 100%;
+	font-size: 1em;
+	line-height: 1.375;
+	font-weight: 400;
+}
+
+#time br + br {
+	margin-top: 0.825rem;
+}
+
+#time:not(:first-child) {
+	margin-top: 1.375rem !important;
+}
+///
+
+#post-text br + br {
+	margin-top: 0.825rem;
+}
+
+#post-text:not(:first-child) {
+	margin-top: 1.375rem !important;
+}
+
+#post-text:not(:last-child) {
+	margin-bottom: 1.375rem !important;
+}
+
+#post-text {
+	text-align: center;
+	color: #C8C8C8;
+	font-family: 'Maven Pro', sans-serif;
+	letter-spacing: -0.025rem;
+	width: 100%;
+	font-size: 1.125em;
+	line-height: 1.375;
+	font-weight: 400;
+}
+
+#post-text br + br {
+	margin-top: 0.825rem;
+}
+
+#post-text:not(:first-child) {
+	margin-top: 1.375rem !important;
+} br + br {
+	margin-top: 0.825rem;
+}
+
+#post-text:not(:first-child) {
+	margin-top: 1.375rem !important;
+}
+
+#post-text:not(:last-child) {
+	margin-bottom: 1.375rem !important;
+}
+
+#post-text {
+	text-align: left;
+	color: #C8C8C8;
+	font-family: 'Maven Pro', sans-serif;
+	letter-spacing: -0.025rem;
+	width: 100%;
+	font-size: 1.125em;
+	line-height: 1.375;
+	font-weight: 400;
+}
+
+#post-text br + br {
+	margin-top: 0.825rem;
+}
+
+#post-text:not(:first-child) {
 	margin-top: 1.375rem !important;
 }
 
@@ -734,9 +847,14 @@ h1 .li, h2 .li, h3 .li, p .li {
 	overflow-y: hidden;
 }
 
-.table-inner {
+.table-inner, .posts {
 	display: inline-block;
 	max-width: 100%;
+}
+
+.posts {
+	overflow: hidden;
+	width: 30%;
 }
 
 table {
@@ -751,6 +869,15 @@ th {
 }
 
 #table01 {
+	color: #686872;
+	font-family: 'Maven Pro', sans-serif;
+	letter-spacing: -0.025rem;
+	font-size: 1.125em;
+	line-height: 1.375;
+	font-weight: 400;
+}
+
+#table01 #posts-table {
 	color: #686872;
 	font-family: 'Maven Pro', sans-serif;
 	letter-spacing: -0.025rem;
@@ -963,9 +1090,6 @@ th {
 }
 
 @media (orientation: portrait) {
-	.gallery-modal .inner img {
-		max-width: 100vw;
-	}
 	
 	.gallery-modal .nav {
 		background-image: none;
@@ -1058,19 +1182,13 @@ th {
 		margin-bottom: -3rem !important;
 	}
 	
-	#image01 .frame {
-		width: 6.625rem;
-		height: 8.28125rem !important;
-	}
-	
 	#image01 img {
-		height: 100% !important;
 		object-fit: cover;
 		object-position: center;
 		width: 100% !important;
 	}
 	
-	#text01 {
+	#header {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1.875em;
@@ -1098,18 +1216,37 @@ th {
 		font-size: 1.125em;
 		line-height: 1.375;
 	}
-	
-	#subtext:not(:first-child) {
+
+	#time:not(:first-child) {
 		margin-top: 1.03125rem !important;
 	}
 	
-	#subtext {
+	#time:not(:last-child) {
+		margin-bottom: 1.03125rem !important;
+	}
+	
+	#time {
 		letter-spacing: -0.021875rem;
 		width: 100%;
 		font-size: 1.125em;
 		line-height: 1.375;
 	}
+
+	#post-text:not(:first-child) {
+		margin-top: 1.03125rem !important;
+	}
 	
+	#post-text:not(:last-child) {
+		margin-bottom: 1.03125rem !important;
+	}
+	
+	#post-text {
+		letter-spacing: -0.021875rem;
+		width: 100%;
+		font-size: 1.125em;
+		line-height: 1.375;
+	}
+
 	#text05:not(:first-child) {
 		margin-top: 1.03125rem !important;
 	}
@@ -1303,7 +1440,7 @@ th {
 		height: 5.796875rem !important;
 	}
 	
-	#text01 {
+	#header {
 		font-size: 1.5em;
 	}
 	
@@ -1315,11 +1452,11 @@ th {
 		font-size: 1.125em;
 	}
 	
-	#subtext {
+	#post-text {
 		font-size: 1.125em;
 	}
 	
-	#text05 {
+	#time {
 		font-size: 1.125em;
 	}
 	
