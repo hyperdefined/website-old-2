@@ -1435,7 +1435,7 @@
 						$modal.id = this.id + '-modal';
 						$modal.tabIndex = -1;
 						$modal.className = 'gallery-modal';
-						$modal.innerHTML = '<div class="inner"><img src="" /></div><div class="nav previous"></div><div class="nav next"></div><div class="close"></div>';
+						$modal.innerHTML = '<div class="inner"><p class="caption"></p><img src="" alt=""/></div><div class="nav previous"></div><div class="nav next"></div><div class="close"></div>';
 						$body.appendChild($modal);
 		
 					// Image.
@@ -1594,6 +1594,7 @@
 								// Set current, src.
 									_this.current = index;
 									$modalImage.src = item.href;
+									$modal.getElementsByTagName('p')[0].innerText = item.getElementsByTagName('img')[0].alt;
 		
 								// Set visible.
 									$modal.classList.add('visible');

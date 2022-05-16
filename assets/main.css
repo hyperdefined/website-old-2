@@ -78,6 +78,13 @@ a {
 	transition: color 0.25s ease;
 }
 
+.caption {
+	color: white;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Maven Pro', sans-serif;
+}
+
 #wrapper {
 	-webkit-overflow-scrolling: touch;
 	align-items: center;
