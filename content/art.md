@@ -78,6 +78,13 @@ layout: page
                     <p>Headshot 2 (@pourwatterarts)</p>
                 </div>
             </li>
+            <li>
+                <a href="walking.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="walking.png" alt="Walking (@fwflunky)" /></span></a>
+                <div class="caption">
+                    <p>Walking (@fwflunky)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
