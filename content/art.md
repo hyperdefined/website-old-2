@@ -30,7 +30,7 @@ layout: page
                 </div>
             </li>
             <li>
-                <a href="art/burst.png" class="thumbnail"><span class="frame deferred"><img
+                <a href="burst.png" class="thumbnail"><span class="frame deferred"><img
                             data-src="burst.png" alt="Burst (@ligermaws)" /></span></a>
                 <div class="caption">
                     <p>Burst (@ligermaws)</p>
