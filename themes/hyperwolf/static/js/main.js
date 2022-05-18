@@ -1572,6 +1572,7 @@
 										// Set current, src.
 											_this.current = index;
 											$modalImage.src = item.href;
+											$modal.getElementsByTagName('p')[0].innerText = item.getElementsByTagName('img')[0].alt;
 		
 										// Delay.
 											setTimeout(function() {
