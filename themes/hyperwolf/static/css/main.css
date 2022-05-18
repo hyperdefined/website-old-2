@@ -1155,8 +1155,11 @@ th {
 	html {
 		font-size: 11pt;
 	}
+
 	
-	
+	.posts {
+		width: 70%;
+	}
 	
 	#main > .inner {
 		--padding-horizontal: 2rem;
@@ -1409,6 +1412,10 @@ th {
 	#image01 .frame {
 		height: 6.625rem !important;
 	}
+
+	table {
+		width: 100%;
+	}
 }
 
 @media (max-width: 360px) {
@@ -1480,5 +1487,9 @@ th {
 		--gutters: 1.5rem;
 		--padding-horizontal: 1.5rem;
 		--padding-vertical: 1.5rem;
+	}
+
+	table {
+		width: 95%;
 	}
 }
