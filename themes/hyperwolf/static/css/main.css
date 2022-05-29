@@ -470,10 +470,13 @@ h1 .li, h2 .li, h3 .li, p .li {
 #time:not(:first-child) {
 	margin-top: 1.375rem !important;
 }
-///
 
 #post-text br + br {
 	margin-top: 0.825rem;
+}
+
+#post-text p {
+	margin-bottom: 0.825rem;
 }
 
 #post-text:not(:first-child) {

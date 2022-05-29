@@ -4,5 +4,7 @@
 </div>
 <h2 id="header">{{ .Title }}</h2>
 <p id="time">{{ dateFormat "01-02-2006" .Date }} - {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}</p>
+<div id="post-text">
  {{ .Content }}
+ </div>
 {{ end }}
