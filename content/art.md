@@ -84,6 +84,13 @@ layout: page
                     <p>Walking (@fwflunky)</p>
                 </div>
             </li>
+            <li>
+                <a href="pride.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="pride.png" alt="Pride (@pagrynga)" /></span></a>
+                <div class="caption">
+                    <p>Pride (@pagrynga)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
