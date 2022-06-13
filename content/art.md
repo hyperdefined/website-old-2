@@ -2,8 +2,8 @@
 title: "Art & References"
 layout: page
 ---
-<p id="subtext">No art on this page is mine. Artists for each piece are posted. Please do not use these images useless given permission by the artist or me.</p>
-<p id="subtext">Please support these artists!</p>
+<p id="subtext">No art on this page is mine. Artists for each piece are posted. Please do not use these images useless given permission by the artists!</p>
+<p id="subtext">Please support them for their work!</p>
 <div id="gallery01" class="gallery">
     <div class="inner">
         <ul>
