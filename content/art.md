@@ -98,6 +98,13 @@ layout: page
                     <p>Blep (@MrPandHew)</p>
                 </div>
             </li>
+            <li>
+                <a href="snowy.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="snowy.png" alt="Snowy (@ellixonn)" /></span></a>
+                <div class="caption">
+                    <p>Snowy (@ellixonn)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
