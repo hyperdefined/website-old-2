@@ -105,6 +105,20 @@ layout: page
                     <p>Snowy (@ellixonn)</p>
                 </div>
             </li>
+            <li>
+                <a href="cherry-blossoms.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="cherry-blossoms.png" alt="Cherry Blossoms (@ellixonn)" /></span></a>
+                <div class="caption">
+                    <p>Cherry Blossoms (@ellixonn)</p>
+                </div>
+            </li>
+            <li>
+                <a href="peace.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="peace.png" alt="Peace (@k41bvtsv)" /></span></a>
+                <div class="caption">
+                    <p>Peace (@k41bvtsv)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
