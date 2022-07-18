@@ -3,7 +3,7 @@
 
 name = "hyperwolf"
 license = "GPL-3.0 license"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://github.com/hyperdefined/hyperdefined.github.io/blob/master/LICENSE"
 description = ""
 homepage = "https://hyper.lol"
 tags = []
@@ -12,4 +12,4 @@ min_version = "0.41.0"
 
 [author]
   name = "hyperdefined"
-  homepage = ""
+  homepage = "https://hyper.lol"
