@@ -119,6 +119,20 @@ layout: page
                     <p>Peace (@k41bvtsv)</p>
                 </div>
             </li>
+            <li>
+                <a href="wave.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="wave.jpg" alt="Wave (@FreneticWolf)" /></span></a>
+                <div class="caption">
+                    <p>Wave (@FreneticWolf)</p>
+                </div>
+            </li>
+            <li>
+                <a href="sleepy.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="sleepy.png" alt="Sleepy (@k41bvtsv)" /></span></a>
+                <div class="caption">
+                    <p>Sleepy (@k41bvtsv)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
