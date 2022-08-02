@@ -133,6 +133,20 @@ layout: page
                     <p>Sleepy (@k41bvtsv)</p>
                 </div>
             </li>
+            <li>
+                <a href="deep-thoughts.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="deep-thoughts.png" alt="Deep Thoughts (@Ethan_ForestFox)" /></span></a>
+                <div class="caption">
+                    <p>Deep Thoughts (@Ethan_ForestFox)</p>
+                </div>
+            </li>
+            <li>
+                <a href="shirtless-boy.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="shirtless-boy.jpg" alt="Shirtless Boy (@aymstrongtozaki)" /></span></a>
+                <div class="caption">
+                    <p>Shirtless Boy (@aymstrongtozaki)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
