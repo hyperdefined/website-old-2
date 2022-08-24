@@ -151,6 +151,27 @@ layout: page
                     <p>Shirtless Boy (@aymstrongtozaki)</p>
                 </div>
             </li>
+            <li>
+                <a href="https://hyper.lol/art/grumpy.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/grumpy.jpg" alt="Grumpy (@aymstrongtozaki)" /></span></a>
+                <div class="caption">
+                    <p>Grumpy (@aymstrongtozaki)</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://hyper.lol/art/fuck.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/fuck.jpg" alt="Fuck (@B1ackRacc00n)" /></span></a>
+                <div class="caption">
+                    <p>Fuck (@B1ackRacc00n)</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://hyper.lol/art/fuck.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/fuck.jpg" alt="Pizza Boy (@k41bvtsv)" /></span></a>
+                <div class="caption">
+                    <p>Pizza Boy (@k41bvtsv)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
