@@ -166,8 +166,8 @@ layout: page
                 </div>
             </li>
             <li>
-                <a href="https://hyper.lol/art/fuck.jpg" class="thumbnail"><span class="frame deferred"><img
-                            data-src="https://hyper.lol/art/fuck.jpg" alt="Pizza Boy (@k41bvtsv)" /></span></a>
+                <a href="https://hyper.lol/art/pizza.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/pizza.jpg" alt="Pizza Boy (@k41bvtsv)" /></span></a>
                 <div class="caption">
                     <p>Pizza Boy (@k41bvtsv)</p>
                 </div>
