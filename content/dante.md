@@ -172,6 +172,20 @@ layout: page
                     <p>Pizza Boy (@k41bvtsv)</p>
                 </div>
             </li>
+            <li>
+                <a href="https://hyper.lol/art/femboy.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/femboy.png" alt="Femboy (@Fleurfurr)" /></span></a>
+                <div class="caption">
+                    <p>Femboy (@Fleurfurr)</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://hyper.lol/art/waking-up.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/waking-up.jpg" alt="Waking Up (@aymstrongtozaki)" /></span></a>
+                <div class="caption">
+                    <p>Waking Up (@aymstrongtozaki)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
