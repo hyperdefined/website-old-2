@@ -180,10 +180,31 @@ layout: page
                 </div>
             </li>
             <li>
+                <a href="https://hyper.lol/art/portrait.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/portrait.png" alt="Portrait (@ellixonn)" /></span></a>
+                <div class="caption">
+                    <p>Portrait (@ellixonn)</p>
+                </div>
+            </li>
+            <li>
                 <a href="https://hyper.lol/art/waking-up.jpg" class="thumbnail"><span class="frame deferred"><img
                             data-src="https://hyper.lol/art/waking-up.jpg" alt="Waking Up (@aymstrongtozaki)" /></span></a>
                 <div class="caption">
                     <p>Waking Up (@aymstrongtozaki)</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://hyper.lol/art/dapper.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/dapper.png" alt="Dapper (@ellixonn)" /></span></a>
+                <div class="caption">
+                    <p>Dapper (@ellixonn)</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://hyper.lol/art/roasting.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/roasting.png" alt="Roasting (@IcefoxWorks)" /></span></a>
+                <div class="caption">
+                    <p>Roasting (@IcefoxWorks)</p>
                 </div>
             </li>
         </ul>
