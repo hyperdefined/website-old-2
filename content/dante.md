@@ -207,6 +207,13 @@ layout: page
                     <p>Roasting (@IcefoxWorks)</p>
                 </div>
             </li>
+            <li>
+                <a href="https://hyper.lol/art/stickers1.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/stickers1.png" alt="Stickers 1 (@otterloser)" /></span></a>
+                <div class="caption">
+                    <p>Stickers 1 (@otterloser)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
