@@ -214,6 +214,13 @@ layout: page
                     <p>Stickers 1 (@otterloser)</p>
                 </div>
             </li>
+            <li>
+                <a href="https://hyper.lol/art/headpats.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/headpats.jpg" alt="Headpats (@WeedTheCat)" /></span></a>
+                <div class="caption">
+                    <p>Headpats (@WeedTheCat)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
