@@ -195,7 +195,7 @@ layout: page
             </li>
             <li>
                 <a href="https://hyper.lol/art/dapper.jpg" class="thumbnail"><span class="frame deferred"><img
-                            data-src="https://hyper.lol/art/dapper.png" alt="Dapper (@ellixonn)" /></span></a>
+                            data-src="https://hyper.lol/art/dapper.jpg" alt="Dapper (@ellixonn)" /></span></a>
                 <div class="caption">
                     <p>Dapper (@ellixonn)</p>
                 </div>
