@@ -242,6 +242,20 @@ layout: page
                     <p>Sticker Pack 2 (@tired_saber)</p>
                 </div>
             </li>
+            <li>
+                <a href="https://hyper.lol/art/christmas.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/christmas.jpg" alt="Christmas (@aymstrongtozaki)" /></span></a>
+                <div class="caption">
+                    <p>Christmas (@aymstrongtozaki)</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://hyper.lol/art/proper-attire.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/proper-attire.jpg" alt="Proper Attire (@tired_saber)" /></span></a>
+                <div class="caption">
+                    <p>Proper Attire (@FreneticWolf)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
