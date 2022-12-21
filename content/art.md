@@ -256,6 +256,20 @@ layout: page
                     <p>Proper Attire (@FreneticWolf)</p>
                 </div>
             </li>
+            <li>
+                <a href="https://hyper.lol/art/deep-thinking.png" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/deep-thinking.png" alt="Deep Thinking (@CedronRohuta)" /></span></a>
+                <div class="caption">
+                    <p>Deep Thinking (@CedronRohuta)</p>
+                </div>
+            </li>
+            <li>
+                <a href="https://hyper.lol/art/mistletoe.jpg" class="thumbnail"><span class="frame deferred"><img
+                            data-src="https://hyper.lol/art/mistletoe.jpg" alt="Mistletoe (@k41bvtsv)" /></span></a>
+                <div class="caption">
+                    <p>Mistletoe (@k41bvtsv)</p>
+                </div>
+            </li>
         </ul>
     </div>
 </div>
