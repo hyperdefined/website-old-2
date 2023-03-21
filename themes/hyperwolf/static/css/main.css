@@ -151,6 +151,10 @@ a:hover {
     font-weight: 400;
 }
 
+.status-image {	
+    width: 100%;	
+}
+
 #main {
 	--alignment: center;
 	--flex-alignment: center;
