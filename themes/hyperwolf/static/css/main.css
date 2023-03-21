@@ -128,11 +128,16 @@ a:hover {
 
 #about-me {
 	display: inline-block;
-	width: 70%;
+	width: 100%;
 }
 
 .center {
 	text-align: center;
+}
+
+.proper-list {
+	list-style: disc;
+	margin-left: 80px;
 }
 
 #art-description {
