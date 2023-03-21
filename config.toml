@@ -2,6 +2,9 @@ baseURL = 'https://hyper.lol/'
 languageCode = 'en-us'
 title = 'hyperdefined'
 theme = 'hyperwolf'
+defaultContentLanguage = "en"
+[params]
+    defaultDescription = "typing with paws is hard :3"
 [permalinks]
   posts = '/:year/:month/:title/'
 [markup]

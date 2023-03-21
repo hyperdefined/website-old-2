@@ -1,6 +1,7 @@
 ---
 title: "Art Gallery"
 layout: page
+description: "hyperdefined's fursona gallery."
 ---
 <div id="art-description">
     <p>Regular 6'4" wolf. Main color is black, with gray as his inner color. Paws are gray on the inside with black beans and a heart.</p>

@@ -4,13 +4,13 @@
     <title>{{ $title }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<meta name="description" content="woof">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultDescription }}{{ end }}">
 
 	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="{{.Site.BaseURL}}">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="{{ $title }}">
-	<meta property="og:description" content="typing with paws is hard :3">
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultDescription }}{{ end }}">
 	<meta property="og:image" content="{{.Site.BaseURL}}images/banner.png">
 	<meta name="theme-color" content="#346eeb">
   
@@ -19,7 +19,7 @@
 	<meta property="twitter:domain" content="{{.Site.BaseURL}}">
 	<meta property="twitter:url" content="{{.Site.BaseURL}}">
 	<meta name="twitter:title" content="{{ $title }}">
-	<meta name="twitter:description" content="typing with paws is hard :3">
+    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultDescription }}{{ end }}">
 	<meta name="twitter:image" content="{{.Site.BaseURL}}images/banner.png">
 
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,400italic,700,700italic" rel="stylesheet"

@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 layout: page
+description: "hyperdefined's various projects."
 ---
 <div id="art-description">
     <h2 id="subtitle">Minecraft Plugins</h2>

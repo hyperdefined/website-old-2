@@ -3,6 +3,7 @@ title: "Plugin Update Checkers"
 date: 2022-08-09T22:33:10-04:00
 draft: false
 layout: post
+description: "Using my custom GitHub API library to check for updates."
 ---
 I have a decent chunk of plugins that I created for Minecraft. One feature I really like in them are update checkers. Server admins usually get lazy and don't check themselves, so having the plugin automatically tell them is easier. There's a few ways to achieve this.
 
