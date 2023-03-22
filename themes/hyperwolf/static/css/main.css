@@ -383,8 +383,8 @@ body.is-instant:after {
 }
 
 #image01 .frame {
-	width: 6.625rem;
-	height: 6.625rem;
+	width: 9.625rem;
+	height: 9.625rem;
 	border-radius: 100%;
 	transition: none;
 }
