@@ -13,7 +13,7 @@
         {{ range .Pages.ByPublishDate.Reverse }}
         <tr>
             <td class="left"><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-            <td class="right"><time class="published-at mobile-hidden">{{ dateFormat "01-02-2006" .Date }}</time></td>
+            <td class="right"><time class="published-at mobile-hidden">{{ dateFormat "January 2, 2006" .Date }}</time></td>
         </tr>
         {{ end }}
     </tbody>

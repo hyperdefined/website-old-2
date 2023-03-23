@@ -7,7 +7,7 @@
     <p><a href="{{.Site.BaseURL}}">Home</a> - <a href="{{.Site.BaseURL}}projects">Projects</a> - <a href="{{.Site.BaseURL}}art">Art Gallery</a> - <a href="{{.Site.BaseURL}}posts">Blog</a></p>
 </header>
 <h2>{{ .Title }}</h2>
-<p id="time">{{ dateFormat "01-02-2006" .Date }} - {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}</p>
+<p id="time">{{ dateFormat "January 2, 2006" .Date }} - {{ .ReadingTime }} minute{{ if (ne .ReadingTime 1) }}s{{ end }}</p>
 <div id="post-text">
  {{ .Content }}
  </div>
