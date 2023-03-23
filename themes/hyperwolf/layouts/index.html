@@ -1,15 +1,13 @@
 {{ define "main" }}
-<div id="image01" class="image" data-position="center">
-    <span class="frame"><img src="{{.Site.BaseURL}}images/icon.png" alt="" /></span>
-</div>
-<h2 id="header">hyperdefined</h2>
-<p id="subtext"><a href="{{.Site.BaseURL}}projects">Projects</a> - <a href="{{.Site.BaseURL}}art">Art Gallery</a> - <a href="{{.Site.BaseURL}}posts">Blog</a></p>
-<div id="about-me">
-    <p id="subtext">I'm hyperdefined, a fluffy, dumb wolf.<br>I code and play games.</p>
-</div>
-<div id="table01" class="table-wrapper">
-    <div class="table-inner">
-        <table class="table-width">
+<header>
+    <div id="main-icon" class="image" data-position="center">
+        <span class="frame"><img src="{{.Site.BaseURL}}images/icon.png" alt="hyperdefined's icon" /></span>
+    </div>
+    <h2>hyperdefined - <small class="text-muted">flower doggy</small></h2>
+    <p><a href="{{.Site.BaseURL}}">Home</a> - <a href="{{.Site.BaseURL}}projects">Projects</a> - <a href="{{.Site.BaseURL}}art">Art Gallery</a> - <a href="{{.Site.BaseURL}}posts">Blog</a></p>
+</header>
+    <p>I'm hyperdefined, a fluffy, dumb wolf. I code and play games.</p>
+        <table>
             <tbody>
                 <tr>
                     <td class="left">Twitter</td>
@@ -33,6 +31,4 @@
                 </tr>
             </tbody>
         </table>
-    </div>
-</div>
 {{ end }}

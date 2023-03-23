@@ -2,28 +2,25 @@
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultDescription }}{{ end }}">
-
-	<!-- Facebook Meta Tags -->
-	<meta property="og:url" content="{{.Site.BaseURL}}">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="{{ $title }}">
+    <meta property="og:url" content="{{.Site.BaseURL}}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ $title }}">
     <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultDescription }}{{ end }}">
-	<meta property="og:image" content="{{.Site.BaseURL}}images/banner.png">
-	<meta name="theme-color" content="#346eeb">
-  
-	<!-- Twitter Meta Tags -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta property="twitter:domain" content="{{.Site.BaseURL}}">
-	<meta property="twitter:url" content="{{.Site.BaseURL}}">
-	<meta name="twitter:title" content="{{ $title }}">
+    <meta property="og:image" content="{{.Site.BaseURL}}images/banner.png">
+    <meta name="theme-color" content="#346eeb">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="{{.Site.BaseURL}}">
+    <meta property="twitter:url" content="{{.Site.BaseURL}}">
+    <meta name="twitter:title" content="{{ $title }}">
     <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.defaultDescription }}{{ end }}">
-	<meta name="twitter:image" content="{{.Site.BaseURL}}images/banner.png">
-
-	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,400italic,700,700italic" rel="stylesheet"
-		type="text/css" />
-	<link rel="icon" type="image/png" href="{{.Site.BaseURL}}images/icon.png"/>
-	<link rel="stylesheet" href="{{.Site.BaseURL}}css/main.css" />
+    <meta name="twitter:image" content="{{.Site.BaseURL}}images/banner.png">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="{{.Site.BaseURL}}images/icon.png" />
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery.min.css" rel="stylesheet">
+	<link href="{{.Site.BaseURL}}css/extra.css" rel="stylesheet">
 </head>

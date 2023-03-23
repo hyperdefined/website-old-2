@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-
-    <body class="is-loading">
-        <div id="particles-js"></div>
-            <div id="main">
-                <div class="inner">
-                    <section id="home-section">
-                        {{- block "main" . }}{{- end }}
-                    </section>
-                    <p id="emoji"><a id="emoji" href="{{.Site.BaseURL}}">🐺</a></p>
-                </div>
-            </div>
-            <script src="{{.Site.BaseURL}}js/main.js"></script>
+    <body>
+        {{- block "main" . }}{{- end }}
     </body>
 </html>

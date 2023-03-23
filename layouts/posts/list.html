@@ -1,11 +1,14 @@
 {{ define "main" }}
-<div id="image01" class="image" data-position="center">
-    <span class="frame"><img src="{{.Site.BaseURL}}images/icon.png" alt="" /></span>
-</div>
-<h2 id="header">{{ .Title }}</h2>
-<p id="subtext">Random typings of a dumb wolf</p>
-<div class="table-inner posts">
-<table id="table01" class="table-wrapper table-width">
+<header>
+    <div id="main-icon" class="image" data-position="center">
+        <span class="frame"><img src="{{.Site.BaseURL}}images/icon.png" alt="hyperdefined's icon" /></span>
+    </div>
+    <h2>hyperdefined - <small class="text-muted">flower doggy</small></h2>
+    <p><a href="{{.Site.BaseURL}}">Home</a> - <a href="{{.Site.BaseURL}}projects">Projects</a> - <a href="{{.Site.BaseURL}}art">Art Gallery</a> - <a href="{{.Site.BaseURL}}posts">Blog</a></p>
+</header>
+<h2>{{ .Title }}</h2>
+<p>Random typings of a dumb wolf. Typing with paws is hard.</p>
+<table>
     <tbody>
         {{ range .Pages.ByPublishDate.Reverse }}
         <tr>
@@ -15,5 +18,4 @@
         {{ end }}
     </tbody>
 </table>
-</div>
 {{ end }}

@@ -1,7 +1,10 @@
 {{ define "main" }}
-<div id="image01" class="image" data-position="center">
-    <a href="{{.Site.BaseURL}}"><span class="frame"><img src="{{.Site.BaseURL}}images/icon.png" alt="" /></a></span>
-</div>
-<h2 id="header">{{ .Title }}</h2>
+<header>
+    <div id="main-icon" class="image" data-position="center">
+        <span class="frame"><img src="{{.Site.BaseURL}}images/icon.png" alt="hyperdefined's icon" /></span>
+    </div>
+    <h2>hyperdefined - <small class="text-muted">flower doggy</small></h2>
+    <p><a href="{{.Site.BaseURL}}">Home</a> - <a href="{{.Site.BaseURL}}projects">Projects</a> - <a href="{{.Site.BaseURL}}art">Art Gallery</a> - <a href="{{.Site.BaseURL}}posts">Blog</a></p>
+</header>
 {{ .Content }}
 {{ end }}
