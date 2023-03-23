@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'hyperdefined'
 theme = 'hyperwolf'
 defaultContentLanguage = "en"
+[taxonomies]
+  month = "months"
+  years = "years"
 [params]
     defaultDescription = "flower doggy :3"
 [permalinks]

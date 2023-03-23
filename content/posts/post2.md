@@ -7,19 +7,19 @@ description: "Using my custom GitHub API library to check for updates."
 ---
 I have a decent chunk of plugins that I created for Minecraft. One feature I really like in them are update checkers. Server admins usually get lazy and don't check themselves, so having the plugin automatically tell them is easier. There's a few ways to achieve this.
 
-<h2 id="subtitle">SpigotMC API</h2>
+<h3>SpigotMC API</h3>
 <p>One of the main methods is to use the SpigotMC's API in order to check the latest version of a resource. This is used by many, and even has a wiki page dedicated to it <a href="https://www.spigotmc.org/wiki/creating-an-update-checker-that-checks-for-updates/">here</a>.</p>
 
-For example, calling the URL <span id="code">https://api.spigotmc.org/legacy/update.php?resource=99606</span> will show the latest version on SpigotMC for my plugin ToolStats.
+For example, calling the URL <span>https://api.spigotmc.org/legacy/update.php?resource=99606</span> will show the latest version on SpigotMC for my plugin ToolStats.
 
 This method is extremely easy to setup. All you have to do is read the contents of a URL, and see if it matches your current plugin's version. If it doesn't, then the plugin is outdated. This can have some problems. SpigotMC sometimes goes down, it doesn't tell you how many versions behind you are, or how old your version is.
 
-<h2 id="subtitle">GitHub API</h2>
+<h3>GitHub API</h3>
 <p>I eventually found out about GitHub's API, specifically it's <a href="https://docs.github.com/en/rest/releases">API for releases</a>. Once I found out about this, I got to work converting my plugins over. I use GitHub releases in order to publish my plugins, so this is perfect.</p>
 
 Because I am reusing code, I eventually figured it would be better to make a library that my plugins can use. Instead of copying a bunch of annoying code, I can make a library to simplify the process. And thus, <a href="https://github.com/hyperdefined/GitHubReleaseAPI">GitHubReleaseAPI</a> was born.
 
-GitHubReleaseAPI is simply a JSON reader that converts all information about releases into <span id="code">GitHubRelease</span> objects. This is how you first access the API.
+GitHubReleaseAPI is simply a JSON reader that converts all information about releases into <span>GitHubRelease</span> objects. This is how you first access the API.
 
 {{< highlight java>}}
 GitHubReleaseAPI api = new GitHubReleaseAPI("ToolStats", "hyperdefined");
