@@ -318,4 +318,28 @@ description: "hyperdefined's fursona gallery."
     </a>
     <p>Mistletoe (@k41bvtsv)</p>
 </blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/good-boy.jpg" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/good-boy.jpg" alt="Good Boy (@k41bvtsv)">
+        </span>
+    </a>
+    <p>Good Boy (@k41bvtsv)</p>
+</blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/relaxing.jpg" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/relaxing.jpg" alt="Relaxing in the Field (@aymstrongtozaki)">
+        </span>
+    </a>
+    <p>Relaxing in the Field (@aymstrongtozaki)</p>
+</blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/locked.jpg" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/locked" alt="Locked Up (@big.angry.fluffball)">
+        </span>
+    </a>
+    <p>Locked Up (@big.angry.fluffball)</p>
+</blockquote>
 </div>
