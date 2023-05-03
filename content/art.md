@@ -337,7 +337,7 @@ description: "hyperdefined's fursona gallery."
 <blockquote class="art-block">
     <a href="https://hyper.lol/art/locked.jpg" class="thumbnail">
         <span class="frame deferred">
-            <img src="https://hyper.lol/art/locked" alt="Locked Up (@big.angry.fluffball)">
+            <img src="https://hyper.lol/art/locked.jpg" alt="Locked Up (@big.angry.fluffball)">
         </span>
     </a>
     <p>Locked Up (@big.angry.fluffball)</p>
