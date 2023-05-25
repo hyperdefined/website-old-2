@@ -9,10 +9,12 @@
 <h2>{{ .Title }}</h2>
 <p>Random typings of a dumb wolf. Typing with paws is hard.</p>
         {{ range .Pages.ByPublishDate.Reverse }}
-        <blockquote>
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p>Posted {{ dateFormat "January 2, 2006" .Date }}</p>
-            <p>{{ .Description }}</p>
-        </blockquote>
+            {{ if not .Draft }}
+                <blockquote>
+                    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <p>Posted {{ dateFormat "January 2, 2006" .Date }}</p>
+                    <p>{{ .Description }}</p>
+                </blockquote>
+            {{ end }}    
         {{ end }}
 {{ end }}
