@@ -342,4 +342,28 @@ description: "hyperdefined's fursona gallery."
     </a>
     <p>Locked Up (@big.angry.fluffball)</p>
 </blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/blep2.jpg" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/blep2.jpg" alt="Blep 2 (@Bezzeroo)">
+        </span>
+    </a>
+    <p>Blep 2 (@Bezzeroo)</p>
+</blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/blep2.jpg" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/blep2.jpg" alt="Blep 2 (@Bezzeroo)">
+        </span>
+    </a>
+    <p>Blep 2 (@Bezzeroo)</p>
+</blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/field.png" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/field.png" alt="In the Field (@CedronRohuta)">
+        </span>
+    </a>
+    <p>In the Field (@CedronRohuta)</p>
+</blockquote>
 </div>
