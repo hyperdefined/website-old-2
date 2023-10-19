@@ -358,4 +358,28 @@ description: "hyperdefined's fursona gallery."
     </a>
     <p>In the Field (@CedronRohuta)</p>
 </blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/desk.png" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/desk.png" alt="At the Desk (@CedronRohuta)">
+        </span>
+    </a>
+    <p>At the Desk (@CedronRohuta)</p>
+</blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/fireplace.png" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/fireplace.png" alt="At the Fireplace (@aymstrongtozaki)">
+        </span>
+    </a>
+    <p>At the Fireplace (@aymstrongtozaki)</p>
+</blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/portrait2.jpg" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/portrait2.png" alt="Portrait 2 (@TAK0YAKI_SENPAI)">
+        </span>
+    </a>
+    <p>Portrait 2 (@TAK0YAKI_SENPAI)</p>
+</blockquote>
 </div>
