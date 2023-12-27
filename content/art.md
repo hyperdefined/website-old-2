@@ -377,9 +377,17 @@ description: "hyperdefined's fursona gallery."
 <blockquote class="art-block">
     <a href="https://hyper.lol/art/portrait2.jpg" class="thumbnail">
         <span class="frame deferred">
-            <img src="https://hyper.lol/art/portrait2.png" alt="Portrait 2 (@TAK0YAKI_SENPAI)">
+            <img src="https://hyper.lol/art/portrait2.jpg" alt="Portrait 2 (@TAK0YAKI_SENPAI)">
         </span>
     </a>
     <p>Portrait 2 (@TAK0YAKI_SENPAI)</p>
+</blockquote>
+<blockquote class="art-block">
+    <a href="https://hyper.lol/art/showoff.png" class="thumbnail">
+        <span class="frame deferred">
+            <img src="https://hyper.lol/art/showoff.png" alt="Show Off (@Bezzeroo)">
+        </span>
+    </a>
+    <p>Show Off (@Bezzeroo)</p>
 </blockquote>
 </div>
