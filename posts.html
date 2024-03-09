@@ -1,0 +1,27 @@
+---
+layout: default
+title: "Posts"
+description: "hyperdefined's blog posts."
+permalink: /posts/
+pagination: 
+  enabled: true
+---
+<h2>{{ page.title }}</h2>
+Random typings of a dumb wolf. Typing with paws is hard, you know?
+{% for post in paginator.posts %}
+    {% include post-item.html %}
+{% endfor %}
+{% if paginator.total_pages > 1 %}
+  <div class="navigation">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
+    <button>&larr; Newer Posts</button>
+  </a>
+  {% endif %}
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+    <button>Older Posts	&rarr;</button>
+  </a>
+  </div>
+  {% endif %}
+{% endif %}

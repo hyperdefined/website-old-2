@@ -1,0 +1,50 @@
+.navbar-icon {
+    width: 155px;
+    height: 155px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.navbar-icon img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.thumbnail {
+	display: block;
+}
+.thumbnail img {
+	width: auto;
+}
+.caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+.art-blocks {
+	text-align: center;
+}
+.art-block {
+	position: relative;
+	display: inline-block;
+	width: calc(60%);
+	margin: 0 5px 5px 0;
+	vertical-align: top;
+}
+header {
+    margin-bottom: 1rem;
+}
+.navigation {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navigation button {
+	margin-bottom: 10px;
+}
