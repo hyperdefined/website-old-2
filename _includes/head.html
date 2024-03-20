@@ -20,15 +20,30 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ site.title }} - {{ page.title }}">
-    {% if page.description %}<meta property="og:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="hyperdefined's website.">{% endif %}
-    {% if page.image %}<meta property="og:image" content="{{ site.url }}{{ page.image }}">{% else %}<meta property="og:image" content="{{ site.url }}/assets/images/banner.jpg">{% endif %}
-
-    <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="hyper.lol">
     <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:title" content="{{ site.title }} - {{ page.title }}">
-    {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="hyperdefined's website.">{% endif %}
-    {% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">{% else %}<meta name="twitter:image" content="{{ site.url }}/assets/images/banner.jpg">
+    {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}">
+        <meta property="og:description" content="{{ page.description }}">
+    {% else %}
+        <meta name="twitter:description" content="hyperdefined's website.">
+    {% endif %}
+
+    {% if page.image %}
+        <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+        <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+        <meta name="twitter:card" content="summary_large_image">
+    {% else %}
+        {% if page.layout == 'post' %}
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:image" content="{{ site.url }}/assets/images/banner.jpg">
+            <meta property="og:image" content="{{ site.url }}/assets/images/banner.jpg">
+        {% else %}
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:image" content="{{ site.url }}/assets/images/icon.jpg">
+            <meta property="og:image" content="{{ site.url }}/assets/images/icon.jpg">
+        {% endif %}    
     {% endif %}
 
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">

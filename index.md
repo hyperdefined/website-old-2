@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "flower doggy 🌺🐾"
+description: "I'm hyperdefined, a fluffy, dumb wolf. I'm a system admin and developer."
 ---
 ## Awoo!
 I'm hyperdefined, a fluffy, dumb wolf. I'm a system admin and developer.
