@@ -13,4 +13,5 @@ I'm also a fursuiter!
 |TikTok|[@hyp3rdefined](https://tiktok.com/@hyp3rdefined)|
 |GitHub|[@hyperdefined](https://github.com/hyperdefined)|
 |Telegram|[@hyperdefined](https://t.me/hyperdefined)|
+|FurTrack|[hyperdefined](https://www.furtrack.com/index/character:hyperdefined)|
 |Email|[contact@hyper.lol](mailto:contact@hyper.lol)|
