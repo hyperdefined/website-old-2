@@ -22,6 +22,10 @@ title: hyperdefined
 url: "https://hyper.lol" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /post/:title
 
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
@@ -36,10 +40,10 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
-  trail: 
+  trail:
     before: 2
     after: 2
-  collection: 'posts' 
+  collection: 'posts'
 
 reading_time:
   second_plural: "seconds"    # default: seconds
