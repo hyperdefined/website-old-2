@@ -10,41 +10,77 @@
     display: block;
 }
 .thumbnail {
-	display: block;
+    display: block;
 }
 .thumbnail img {
-	width: auto;
+    width: auto;
 }
 .caption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: #fff;
-	padding: 10px;
-	font-size: 20px;
-	text-align: center;
-	width: 100%;
-	box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 .art-blocks {
-	text-align: center;
+    text-align: center;
 }
 .art-block {
-	position: relative;
-	display: inline-block;
-	width: calc(60%);
-	margin: 0 5px 5px 0;
-	vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: calc(60%);
+    margin: 0 5px 5px 0;
+    vertical-align: top;
 }
 header {
     margin-bottom: 1rem;
 }
 .navigation {
-	display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 .navigation button {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* This footer was taken from https://github.com/xz/new.css/pull/72 */
+footer {
+    background: var(--nc-bg-2);
+    border-top: 1px solid var(--nc-bg-3);
+    padding: 2rem 1.5rem;
+
+    /* This sets the right and left margins to cancel out the body's margins. It's width is still the same, but the background stretches across the page's width. */
+
+    margin: 2rem calc(0px - (50vw - 50%)) -2rem;
+
+    /* Shorthand for:
+	margin-top: -2rem;
+	margin-bottom: 2rem;
+	margin-left: calc(0px - (50vw - 50%));
+	margin-right: calc(0px - (50vw - 50%)); */
+
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+}
+
+footer h1,
+footer h2,
+footer h3 {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+footer > *:first-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer > *:last-child {
+    margin-top: 0;
 }
