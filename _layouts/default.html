@@ -4,6 +4,8 @@
 <body>
 {% include navbar.html %}
 {{ content }}
+{% if page.url != "/" %}
 {% include footer.html %}
+{% endif %}
 </body>
 </html>
