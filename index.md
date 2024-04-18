@@ -1,10 +1,10 @@
 ---
 layout: default
 title: "flower doggy 🌺🐾"
-description: "I'm hyperdefined, a fluffy, dumb wolf. I'm a system admin and developer."
+description: "I'm hyperdefined, a fluffy, flower wolf. I'm and IT nerd and developer."
 ---
 ## Awoo!
-I'm hyperdefined, a fluffy, dumb wolf. I'm a system admin and developer.
+I'm hyperdefined, a fluffy, flower wolf. I'm and IT nerd and developer.
 
 I'm also a fursuiter!
 
