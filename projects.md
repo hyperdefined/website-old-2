@@ -4,7 +4,6 @@ title: "Projects"
 description: "hyperdefined's various projects."
 permalink: /projects/
 ---
-## Projects
 Collection of things I currently work on or manage.
 ### Minecraft Plugins
 I focus on developing and maintaining Minecraft server plugins. I have  expierence with running servers as well.
@@ -16,9 +15,10 @@ I usually make plugins that are for specific needs or ones I haven't seen done y
 These are standalone Java projects that aren't for anything specific.
 * [CustomLauncherRewrite](https://github.com/hyperdefined/CustomLauncherRewrite) - A fully standalone custom launcher for Toontown Rewritten.
 * [GitHubReleaseAPI](https://github.com/hyperdefined/GitHubReleaseAPI) - A simple and small library for accessing GitHub releases for a repository.
+* [CobaltTracker](https://github.com/hyperdefined/CobaltTracker) - Tracker for [cobalt](https://github.com/wukko/cobalt) instances.
 
 ## Websites
 I run some other websites for people or myself.
 * [ardenwolfsky.com](https://ardenwolfsky.com) - Personal website for friend, built using Jekyll.
 * [canine.tools](https://canine.tools) - Collection of web apps for fluffs.
-* [instances.hyper.lol](https://instances.hyper.lol) - Instance tracker for [cobalt](https://github.com/wukko/cobalt) instances.
+* [instances.hyper.lol](https://instances.hyper.lol) - Tracker for [cobalt](https://github.com/wukko/cobalt) instances.

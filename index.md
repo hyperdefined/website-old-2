@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "flower doggy 🌺🐾"
 description: "I'm hyperdefined, a fluffy, flower wolf. I'm and IT nerd and developer."
 ---
