@@ -18,7 +18,7 @@ Original design of him was created by [@ligermaws](https://twitter.com/ligermaws
 
 ### Reference Sheet
 Made by [@ligermaws](https://twitter.com/ligermaws).
-<img src="{{ site.url }}/assets/art/ref.png" alt="Reference Sheet (@ligermaws)"/>
+<img src="{{ site.url }}/assets/images/pages/fursona-ref.png" alt="Reference Sheet (@ligermaws)"/>
 
 <hr>
 
