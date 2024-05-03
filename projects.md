@@ -20,3 +20,5 @@ These are standalone Java projects that aren't for anything specific.
 ## Websites
 I run some other websites for people or myself.
 * [ardenwolfsky.com](https://ardenwolfsky.com) - Personal website for friend, built using Jekyll.
+* [canine.tools](https://canine.tools) - Collection of web apps for fluffs.
+* [instances.hyper.lol](https://instances.hyper.lol) - Instance tracker for [cobalt](https://github.com/wukko/cobalt) instances.
